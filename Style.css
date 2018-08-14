@@ -1,0 +1,14 @@
+
+.navbar {
+    background-color: firebrick;
+}
+.heading {
+    color: grey; 
+    text-align: center
+}
+#title-bg {
+    color: red;
+}
+.form-input{
+    width :200px;
+}

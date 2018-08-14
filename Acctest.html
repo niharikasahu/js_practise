@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="Style.css"> 
+    <script type="text/javascript" src= "Properties.js"></script>
+</head>
+<body>
+    
+    <div class="header navbar">
+            <img src="unnamed.png" alt="logo" height="100px"/>
+            
+          </div>
+          <h1 class="heading" item-height="100">Welcome to <span id="title-bg">A</span>ccionLabs</h1>
+    <h3>This is Employee log</h3>
+    <table border="1">
+        <tr><th>EmpId</th><th>EmployeeName</th><th>Email Id</th><th>DOJ</th><th>Skills</th></tr>
+        <tr><th>111</th><th>Niharika Sahu</th><th>niharika.sahu@accionlabs</th><th>25/08/18</th><th>QA</th></tr>
+        <tr><th>112</th><th>Abjijeet K</th><th>Abhijeet.k@accionlabs</th><th>15/08/18</th><th>Developer</th></tr>
+        <tr><th>113</th><th>Prasad M</th><th>Prasad.M@accionlabs.com</th><th>16/01/15</th><th>Skills</th></tr>
+    </table>
+    <button id="button" value="Add"></button><br>
+    <form>
+            Emp Id: <input type="text" name="fname" id="empid">
+            Name: <input type="text" name="fname" id="name">
+            Email ID: <input type="text" name="fname" id="mail">
+            Skills: <input type="text" name="fname" id="skill"></form>
+    <button value="Submit" onclick="Submit()">Submit</button>
+
+    <br>
+    <p>Added value is : </p>
+    <hr>
+    <p>Emp id : <span id="emp_id"></span></p>
+    <p>Name:<span id= "emp_name"></span></p>
+    <p>Email Id:<span id= "emp_mail"></span></p>
+    <p>Skills:<span id= "emp_skill"></span></p>
+    
+</body>
+</html>
